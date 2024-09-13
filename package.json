@@ -1,6 +1,6 @@
 {
   "name": "react-cljs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Felix Alm <felix.kauppi.alm@gmail.com>",
   "keywords": ["squint", "clojurescript", "react"],
   "scripts": {
@@ -16,6 +16,9 @@
   "files": "dist",
   "dependencies": {
     "squint-cljs": "^0.8.113"
+  },
+  "bin": {
+    "setup": "bin/setup.sh"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^26.0.1",
