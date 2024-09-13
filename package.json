@@ -1,0 +1,13 @@
+{
+  "name": "react-cljs",
+  "version": "0.0.5",
+  "author": "Felix Alm <felix.kauppi.alm@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kauppilainen/react-cljs.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "squint-cljs": "^0.8.113"
+  }
+}
