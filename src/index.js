@@ -1,4 +1,4 @@
-import { compileString } from ('squint-cljs')
+import { compileString } from 'squint-cljs'
 
 export function cljsToJs () {
   return {
