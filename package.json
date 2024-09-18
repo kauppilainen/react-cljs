@@ -1,6 +1,6 @@
 {
   "name": "react-cljs",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "author": "Felix Alm <felix.kauppi.alm@gmail.com>",
   "keywords": ["squint", "clojurescript", "react"],
   "scripts": {
