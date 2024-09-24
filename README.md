@@ -1,5 +1,10 @@
 # Why?
-Use ClojureScript (Squint) in your React project. 
+Allow users to run [Squint](https://github.com/squint-cljs/squint), a [ClojureScript](https://clojurescript.org/) dialect, in your [React](https://react.dev/) project.
+
+# How?
+`react-cljs` exposes two things:
+- a setup script that installs `react-cljs` as a dev dependency and inserts a script into `package.json` called `cljs-repl` that spins up a Squint REPL
+- a [Vite](https://vitejs.dev/) plugin utilising Squints `compileString` to transpile ClojureScript to JavaScript.
 
 # Usage
 ## Working example
@@ -19,3 +24,4 @@ export default defineConfig({
 })
 
 ```
+One can now freely drop `.cljs` files into their React project and import its functions as any other JavaScript function
