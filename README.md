@@ -1,5 +1,5 @@
 # Why?
-Allow users to run [Squint](https://github.com/squint-cljs/squint), a [ClojureScript](https://clojurescript.org/) dialect, in your [React](https://react.dev/) project.
+Allow users to run [Squint](https://github.com/squint-cljs/squint), a [ClojureScript](https://clojurescript.org/) dialect, in their [React](https://react.dev/) project.
 
 # How?
 `react-cljs` exposes two things:
