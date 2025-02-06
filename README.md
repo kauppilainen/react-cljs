@@ -1,13 +1,13 @@
-# Why?
+# react-cljs
 Allow users to run [Squint](https://github.com/squint-cljs/squint), a [ClojureScript](https://clojurescript.org/) dialect, in their [React](https://react.dev/) project.
 
-# How?
+## How?
 `react-cljs` exposes two things:
 - a setup script that installs `react-cljs` as a dev dependency and inserts a script into `package.json` called `cljs-repl` that spins up a Squint REPL
 - a [Vite](https://vitejs.dev/) plugin utilising Squints `compileString` to transpile ClojureScript to JavaScript.
 
-# Usage
-## Working example
+## Usage
+### Working example
 ```
 > npm create vite@latest react-cljs-test -- --template react
 > cd react-cljs-test
